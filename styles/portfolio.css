@@ -14,6 +14,7 @@ color: #FD6E0A;
 .dark-2{
     color: #474747;
 }
+/* nav styles */
 nav{
 align-items: center;
 display: flex;
@@ -27,7 +28,7 @@ margin: 0 35px 0 230px;
 }
 .nav-title{
     font-size: 45px;
-    font font-weight: 800;
+     font-weight: 800;
 }
 nav li a{
 text-decoration: none;
@@ -52,11 +53,13 @@ nav ul{
     display: flex;
 align-items: center;
 }
+/* starting of intriducing */
 .banner-greetings{
 font-size: 45px;
 font-weight: 600;
 color: #474747;
 }
+/* title name of the deb. */
 .banner-title{
     font-weight: bold;
     font-size: 85px;
@@ -77,4 +80,41 @@ max-width: 580px;
     background-repeat: no-repeat;
     background-position:top left,right bottom ;
     
+}
+
+.secondary-background{
+    background-color:#FFF8F3;
+
+}
+.section-title{
+font-size:35px;
+font-weight: bold;
+color: #181818;
+
+}
+.secton-titile-description{
+font-size: 18px;
+    color: #757575;
+    
+}
+.about{
+padding: 130px 150px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 130px;
+}
+main{
+max-width: 1140px;
+margin: 0 auto;
+
+}
+.item-description{
+
+    font-weight: 600;
+}
+.about-items{
+display: flex;
+justify-content: space-around;
+
+
 }
